@@ -1,3 +1,8 @@
+#
+templates/map.html
+env_flask/
+RESTORE*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
