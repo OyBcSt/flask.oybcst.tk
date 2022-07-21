@@ -1,0 +1,23 @@
+name: folium 
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - altair
+  - branca
+  - cartopy
+  - fiona
+  - folium
+  - geographiclib
+  - geopandas
+  - gpxpy
+  - ipython
+  - matplotlib
+  - mplleaflet
+  - numpy
+  - owslib
+  - pandas
+  - scipy
+  - shapely
+  - vincent
+  - flask

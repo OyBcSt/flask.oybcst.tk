@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>OyBcSt - NOAA RESTORE</title>
+
+<!-- NC State Bootstrap CSS -->
+<link href="https://cdn.ncsu.edu/brand-assets/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css" />
+<!-- jQuery 2.1.0 -->
+<!-- Do we need this?? L3 -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.ncsu.edu/brand-assets/bootstrap/js/bootstrap.min.js">
+</script>
+</head>
+<body>
+
+
+<div class="container-fluid">
+ <div class="row">
+
+  <div class="col-md-3">
+    <h2>NOAA RESTORE - Station List 2020</h2>
+    Popups:
+    <ul>
+            <li>Red icon has a landmark</li>
+            <li>Blue has a Water Station</li>
+            <li>Light green has a Fishery Station</li>
+            <li>Dark green has a Water Station and a Fishery Station</li>
+    </ul>
+    Click the Popup for the Station Name, Fishery Station Name, and Landmark
+  </div>
+
+ <div class="col-md-9">
+<br>
+    <!--    <iframe class="map", src="/map" width="600" height="600"></iframe> -->
+    <iframe class="map", src="/map" width="600" height="600" ></iframe>
+
+<!--   <img src="templates/NOAA-Banner.png" alt="NOAA RESTORE OyBcSt Collabors" width="100" height="132"> -->
+</div>
+
+</div>
+
+<div class="well well-sm">
+   <center>
+   Copyright &copy; <?php echo date("Y");?> &#183;
+   All Rights Reserved
+   </center>
+</div>
+
+
+
+</div>
+</body>
+</html>
